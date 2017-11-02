@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.m2advertise.games.scratch"
+    },
+    "jhipsterVersion": "4.9.0",
+    "baseName": "m2advertiseScratchGame",
+    "packageName": "com.m2advertise.games.scratch",
+    "packageFolder": "com/m2advertise/games/scratch",
+    "serverPort": "8082",
+    "authenticationType": "uaa",
+    "uaaBaseName": "m2advertiseUAA",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "07627f6dee8fd41279bca86fa7bec1ee1ed6771b",
+    "enableTranslation": false,
+    "applicationType": "microservice",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "clientPackageManager": "yarn"
+  }
+}
